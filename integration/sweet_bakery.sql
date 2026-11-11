@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 09, 2026 at 07:05 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Host: 127.0.0.1:3308
+-- Generation Time: Nov 11, 2026 at 07:38 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -64,13 +64,8 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `description`, `price`, `image_path`, `is_active`, `sort_order`, `created_at`, `updated_at`) VALUES
-(1, 'Rainbow Dream Cupcakes', 'Fluffy vanilla cake topped with swirled rainbow buttercream, edible glitter, and a cherry on top. Pure kawaii magic!', 4.50, 'images/rainbow-cupcakes.jpg', 1, 1, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(2, 'Strawberry Glazed Donuts', 'Soft and fluffy donuts with sweet strawberry glaze and rainbow sprinkles. A breakfast favorite!', 3.50, 'images/glazed-donuts.jpg', 1, 2, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(3, 'Pastel Macarons', 'Delicate French macarons in lavender, rose, and mint flavors with creamy fillings.', 2.50, 'images/french-macarons.jpg', 1, 3, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(4, 'Choco Chip Cookies', 'Classic chocolate chip cookies, perfectly crispy on the edges and chewy in the center.', 2.00, 'images/chocolate-cookies.jpg', 1, 4, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(5, 'Kawaii Birthday Cake', 'Custom-designed celebration cake with your choice of flavors and adorable decorations.', 45.00, 'images/decorated-cake.jpg', 1, 5, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(6, 'Happy Face Brownies', 'Rich, fudgy brownies topped with cream cheese frosting and a sweet smile.', 3.00, 'images/brownies.jpg', 1, 6, '2026-11-09 05:23:36', '2026-11-09 05:23:36'),
-(7, 'Blue Berry Cake', 'Blue Berry Cake', 5.00, 'admin/uploads/menu/b112d54b4b5d7e7883f75e18b3ab9091.jpg', 1, 10, '2026-11-09 05:35:48', '2026-11-09 05:35:48');
+(1, 'Special Dry Dog Food Puppy', 'Special Dry Dog Food Puppy', 12.00, 'admin/uploads/menu/07996e50619856d3889a343ed0dfdc18.jpg', 1, 5, '2026-11-11 06:25:30', '2026-11-11 06:25:30'),
+(2, 'Jerhigh Real Beef Stick 70g Dog Treats', 'Jerhigh Real Beef Stick 70g Dog Treats', 1.50, 'admin/uploads/menu/662396c74d0971197842e5bcbff5f0ac.jpg', 1, 20, '2026-11-11 06:29:17', '2026-11-11 06:29:17');
 
 --
 -- Indexes for dumped tables
@@ -104,7 +99,7 @@ ALTER TABLE `admin_users`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
