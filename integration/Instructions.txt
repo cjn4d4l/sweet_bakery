@@ -1,0 +1,11 @@
+Note: Ensure that xampp is installed and apache and MySQL us running.
+0. copy sweet_bakery.zip and extract it in c:\xampp\htdocs
+1. create a database and name it sweet_bakery. Important sweet_bakery.sql
+2. copy admin and includes in sweet_bakery root directory
+3. open index.html and save it as index.php
+4. open index.php
+5. open integration.php and follow the instructions in there.
+6. Test - Changes by opening localhost/sweet_bakery/index.php
+8. add new cake by opening localhost/sweet_bakery/admin/login.php
+   user name: admin password: admin@rsu#2026     
+9. check - if new cake is added by opening localhost/sweet_bakery/index.php 
